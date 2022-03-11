@@ -1,0 +1,110 @@
+INFO:root:
+ ***********************************************
+INFO:root:Generating text file small_text_file.txt
+INFO:root:Text file generated
+INFO:root:
+ ***********************************************
+INFO:root:Generating text file large_text_file.txt
+INFO:root:Text file generated
+INFO:root:
+ ***********************************************
+INFO:root:Generating text file medium_text_file.txt
+INFO:root:Text file generated
+INFO:root:AES CBC: Time taken to generate key for small_text_file.txt is 141661598
+INFO:root:AES CBC: Time taken for encrypting small_text_file.txt is 89783
+INFO:root:AES CBC: Time taken for decrypting small_text_file.txt is 32323
+INFO:root:AES CBC: Is small_text_file.txtdecrypted properly? : True
+INFO:root:AES CBC: Encryption speed per byte for small_text_file.txt : 87.6787109375
+INFO:root:AES CBC: Decryption speed per byte for small_text_file.txt : 31.5654296875
+INFO:root:AES CBC: Time taken to generate key for large_text_file.txt is 159718
+INFO:root:AES CBC: Time taken for encrypting large_text_file.txt is 35940877
+INFO:root:AES CBC: Time taken for decrypting large_text_file.txt is 14465946
+INFO:root:AES CBC: Is large_text_file.txtdecrypted properly? : True
+INFO:root:AES CBC: Encryption speed per byte for large_text_file.txt : 3.4275891304016115
+INFO:root:AES CBC: Decryption speed per byte for large_text_file.txt : 1.3795801162719727
+INFO:root:AES CTR: Time taken to generate key for small_text_file.txt is 290651
+INFO:root:AES CTR: Time taken for encrypting small_text_file.txt is 171361
+INFO:root:AES CTR: Time taken for decrypting small_text_file.txt is 30429
+INFO:root:AES CTR: Is small_text_file.txtdecrypted properly? : True
+INFO:root:AES CTR: Encryption speed per byte for small_text_file.txt : 167.3447265625
+INFO:root:AES CTR: Decryption speed per byte for small_text_file.txt : 29.7158203125
+INFO:root:AES CTR: Time taken to generate key for large_text_file.txt is 150190
+INFO:root:AES CTR: Time taken for encrypting large_text_file.txt is 22802306
+INFO:root:AES CTR: Time taken for decrypting large_text_file.txt is 14940426
+INFO:root:AES CTR: Is large_text_file.txtdecrypted properly? : True
+INFO:root:AES CTR: Encryption speed per byte for large_text_file.txt : 2.1745973587036134
+INFO:root:AES CTR: Decryption speed per byte for large_text_file.txt : 1.4248300552368165
+INFO:root:AES CTR 256: Time taken to generate key for small_text_file.txt is 253089
+INFO:root:AES CTR 256: Time taken for encrypting small_text_file.txt is 81978
+INFO:root:AES CTR 256: Time taken for decrypting small_text_file.txt is 32502
+INFO:root:AES CTR 256: Is small_text_file.txtdecrypted properly? : True
+INFO:root:AES CTR 256: Encryption speed per byte for small_text_file.txt : 80.056640625
+INFO:root:AES CTR 256: Decryption speed per byte for small_text_file.txt : 31.740234375
+INFO:root:AES CTR 256: Time taken to generate key for large_text_file.txt is 161882
+INFO:root:AES CTR 256: Time taken for encrypting large_text_file.txt is 26109759
+INFO:root:AES CTR 256: Time taken for decrypting large_text_file.txt is 15797309
+INFO:root:AES CTR 256: Is large_text_file.txtdecrypted properly? : True
+INFO:root:AES CTR 256: Encryption speed per byte for large_text_file.txt : 2.4900206565856933
+INFO:root:AES CTR 256: Decryption speed per byte for large_text_file.txt : 1.50654878616333
+INFO:root:RSA 2048: Time taken to generate key for small_text_file.txt is 33743254
+INFO:root:RSA 2048: Time taken for encrypting small_text_file.txt is 1053883
+INFO:root:RSA 2048: Time taken for decrypting small_text_file.txt is 9440313
+INFO:root:RSA 2048: Is small_text_file.txtdecrypted properly? : True
+INFO:root:RSA 2048: Encryption speed per byte for small_text_file.txt : 1029.1826171875
+INFO:root:RSA 2048: Decryption speed per byte for small_text_file.txt : 9219.0556640625
+INFO:root:RSA 2048: Time taken to generate key for medium_text_file.txt is 45117361
+INFO:root:RSA 2048: Time taken for encrypting medium_text_file.txt is 866620063
+INFO:root:RSA 2048: Time taken for decrypting medium_text_file.txt is 10416669120
+INFO:root:RSA 2048: Is medium_text_file.txtdecrypted properly? : True
+INFO:root:RSA 2048: Encryption speed per byte for medium_text_file.txt : 826.4732961654663
+INFO:root:RSA 2048: Decryption speed per byte for medium_text_file.txt : 9934.109802246094
+INFO:root:RSA 3072: Time taken to generate key for small_text_file.txt is 176377178
+INFO:root:RSA 3072: Time taken for encrypting small_text_file.txt is 1422206
+INFO:root:RSA 3072: Time taken for decrypting small_text_file.txt is 42841736
+INFO:root:RSA 3072: Is small_text_file.txtdecrypted properly? : True
+INFO:root:RSA 3072: Encryption speed per byte for small_text_file.txt : 1388.873046875
+INFO:root:RSA 3072: Decryption speed per byte for small_text_file.txt : 41837.6328125
+INFO:root:RSA 3072: Time taken to generate key for medium_text_file.txt is 399231467
+INFO:root:RSA 3072: Time taken for encrypting medium_text_file.txt is 1405755770
+INFO:root:RSA 3072: Time taken for decrypting medium_text_file.txt is 43782710493
+INFO:root:RSA 3072: Is medium_text_file.txtdecrypted properly? : True
+INFO:root:RSA 3072: Encryption speed per byte for medium_text_file.txt : 1340.6331729888916
+INFO:root:RSA 3072: Decryption speed per byte for medium_text_file.txt : 41754.446499824524
+INFO:root:SHA-256 : Time taken for hashing small_text_file.txt is 7428722
+INFO:root:SHA-256 : Generated hash for small_text_file.txt is b'\xc35\xf0\xa42o\x1c\xf0\x8d\xa3\xdb\xf8\xfb\xd1\xec\x97\xf8\xb1\x95\x10\xf7\x7fL\xf3\xd8vc\t\x82\x1f{\xbb'
+INFO:root:SHA-256 : Hashing speed per byte for small_text_file.txt is 7254.611328125
+INFO:root:SHA-512 : Time taken for hashing small_text_file.txt is 139152
+INFO:root:SHA-512 : Generated hash for small_text_file.txt is b'@\x01\xc6^\xc1\xdaCHog<\x85\x86\x85\x03\xeb\xc8\x15`#\xa4\xdb\xf5\x861;\x04K\xeb\xdfk\x9a\n\xc6\xdb\xb6ABz\xcc+\xc2N\x02\xa2\x18?\x92\xfb,\xb9\x07\xb9\xea\x1ey\x92SM\x99\xc7v}/'
+INFO:root:SHA-512 : Hashing speed per byte for small_text_file.txt is 135.890625
+INFO:root:SHA3-256 : Time taken for hashing small_text_file.txt is 296106
+INFO:root:SHA3-256 : Generated hash for small_text_file.txt is b'\xf7\x15\x0b\x91\xfdd^\xf4\x9a\x0eE\xe7\xce\xc0\xde<2\xcc\xf6\xab[\xd9\xb4\xdc\xa7\xdc\xf0mr?\xb5~'
+INFO:root:SHA3-256 : Hashing speed per byte for small_text_file.txt is 289.166015625
+INFO:root:SHA-256 : Time taken for hashing large_text_file.txt is 43932546
+INFO:root:SHA-256 : Generated hash for large_text_file.txt is b'\xfc\x02>A\x10V\'\x8d\xb4\x8e~\x19\xd9#\x12\xc6\xab\x9f\xee\xf0\xba\xe0|>\x1e\x18j\x89\xde"Y\xf9'
+INFO:root:SHA-256 : Hashing speed per byte for large_text_file.txt is 4.189734077453613
+INFO:root:SHA-512 : Time taken for hashing large_text_file.txt is 36302053
+INFO:root:SHA-512 : Generated hash for large_text_file.txt is b'+\xfa\xf7\x15\x96\x10\xfb\xc8\xe8\xbd\xad\xd9{C\xf5.\xa4_P\xa4\xfa\xe2\xc8\x86\r\xe2\xa4\x05Fy\xe7\xd6=\x88\x99_w\xce\xdb\xcc\xc2\xd1\x19:xQ\x99\xd1\xd1\x04\x01\x1c{\xd3\xc3i\x87\x9a\xd0\xd7\xd4\x8b\xed_'
+INFO:root:SHA-512 : Hashing speed per byte for large_text_file.txt is 3.4620335578918455
+INFO:root:SHA3-256 : Time taken for hashing large_text_file.txt is 44535284
+INFO:root:SHA3-256 : Generated hash for large_text_file.txt is b'\r\xe9\xf5\xa3\xd0 \xa1\xc8\x90\xa0|\xb8\x849\xf5\x10u\xca\x10\x8f|\x99\xd8\xf2\xc8\xe7v\xf7|,wq'
+INFO:root:SHA3-256 : Hashing speed per byte for large_text_file.txt is 4.247215652465821
+INFO:root:DSA 2048: Time taken to generate key for small_text_file.txt is 411321223
+INFO:root:DSA 2048: Time taken for signing small_text_file.txt is 1798164
+INFO:root:DSA 2048: Time taken for verifying the signature for small_text_file.txt is 1108865
+INFO:root:DSA 2048: Signing speed per byte for small_text_file.txt is 1756.01953125
+INFO:root:DSA 2048: Verification speed per byte for small_text_file.txt is 1082.8759765625
+INFO:root:DSA 2048: Time taken to generate key for large_text_file.txt is 474556641
+INFO:root:DSA 2048: Time taken for signing large_text_file.txt is 44984555
+INFO:root:DSA 2048: Time taken for verifying the signature for large_text_file.txt is 44293675
+INFO:root:DSA 2048: Signing speed per byte for large_text_file.txt is 4.2900614738464355
+INFO:root:DSA 2048: Verification speed per byte for large_text_file.txt is 4.2241740226745605
+INFO:root:DSA 3072: Time taken to generate key for small_text_file.txt is 7526615992
+INFO:root:DSA 3072: Time taken for signing small_text_file.txt is 2769166
+INFO:root:DSA 3072: Time taken for verifying the signature for small_text_file.txt is 2328887
+INFO:root:DSA 3072: Signing speed per byte for small_text_file.txt is 2704.263671875
+INFO:root:DSA 3072: Verification speed per byte for small_text_file.txt is 2274.3037109375
+INFO:root:DSA 3072: Time taken to generate key for large_text_file.txt is 1232747451
+INFO:root:DSA 3072: Time taken for signing large_text_file.txt is 45390792
+INFO:root:DSA 3072: Time taken for verifying the signature for large_text_file.txt is 45687063
+INFO:root:DSA 3072: Signing speed per byte for large_text_file.txt is 4.328803253173828
+INFO:root:DSA 3072: Verification speed per byte for large_text_file.txt is 4.357057857513428
