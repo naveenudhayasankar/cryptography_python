@@ -16,3 +16,5 @@ The log file generated will capture the following data:
   3. Time taken for decryption/ verification of the signature. 
   4. Per byte speed of encryption/ hashing/ signing. 
   5. Per byte speed of decryption/ verification of the signature. 
+
+A sample of the observed runtimes in nanoseconds is enclosed in the Sample Runtimes.pdf file. 
